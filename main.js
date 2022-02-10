@@ -39,4 +39,33 @@ document.write(first.toLowerCase() + " ", rest.toUpperCase() + " ", last.toLower
 // let newSatz = satz.substring(3, 15)
 // console.log(newSatz);
 
+//slice()
+// Susi
+// is
+// is going to school
+// school
+// Susi is school
 
+const A = 'Susi is going to codingschool';
+
+
+let part1 = A.slice(0, 4);
+let part2 = A.slice(5, 8);
+let part4 = A.slice(23, 29);
+let part3 = A.slice(5, 29);
+document.write(part1 + "<br>");
+document.write(part2 + "<br>");
+document.write(part3 + "<br>");
+document.write(part4 + "<br>");
+document.write(part1 + " " + part2 + " " + part4 + "<br>")
+
+// concat()
+const text1 = "Sam is going to codingschool";
+const text2 = "Susi";
+const text3 = "programming bike";
+const text4 = " and "
+const text5 = text1.slice(3, 14);
+const text6 = text1.slice(0, 3);
+document.write(text1.concat(text4) + " to the movie theater <br>");
+document.write(text6.concat(text5) + " to the movie theater<br>");
+document.write(text6.concat(text4, text2) + " are going to the school<b>");
